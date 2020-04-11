@@ -96,9 +96,9 @@ public class Nodes implements Saveable {
     }
     
     public void updateAndTrim() {
-		updateComputerList();
-	    trimLabels();
-	}
+	jenkins.updateComputerList();
+	jenkins.trimLabels();
+    }
     /**
      * Sets the list of nodes.
      *
