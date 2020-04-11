@@ -1,0 +1,147 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.jenkins-ci.main:cli >-----------------------
+[INFO] Building Jenkins cli 1.610-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ cli ---
+[INFO] Deleting C:\Users\ska29\Downloads\mp3\mp3\jenkins\cli\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.736 s
+[INFO] Finished at: 2020-04-11T00:58:13-04:00
+[INFO] ------------------------------------------------------------------------
+
+
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.jenkins-ci.main:jenkins-core >------------------
+[INFO] Building Jenkins core 1.610-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-core ---
+[INFO] Deleting C:\Users\ska29\Downloads\mp3\mp3\jenkins\core\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.408 s
+[INFO] Finished at: 2020-04-11T00:58:39-04:00
+[INFO] ------------------------------------------------------------------------
+
+
+
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.jenkins-ci.main:jenkins-test-harness >--------------
+[INFO] Building Test harness for Jenkins and plugins 1.610-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-test-harness ---
+[INFO] Deleting C:\Users\ska29\Downloads\mp3\mp3\jenkins\test\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.498 s
+[INFO] Finished at: 2020-04-11T00:59:00-04:00
+[INFO] ------------------------------------------------------------------------
+
+
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.jenkins-ci.main:jenkins-war >-------------------
+[INFO] Building Jenkins war 1.610-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-war ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.729 s
+[INFO] Finished at: 2020-04-11T00:59:18-04:00
+[INFO] ------------------------------------------------------------------------
+
+
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.jenkins-ci.plugins:plugin >--------------------
+[INFO] Building Jenkins plugin POM 1.610-SNAPSHOT
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.696 s
+[INFO] Finished at: 2020-04-11T00:59:38-04:00
+[INFO] ------------------------------------------------------------------------
+
+
+
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Jenkins main module                                                [pom]
+[INFO] Jenkins cli                                                        [jar]
+[INFO] Jenkins core                                                       [jar]
+[INFO] Jenkins war                                                        [war]
+[INFO] Test harness for Jenkins and plugins                               [jar]
+[INFO] Jenkins plugin POM                                                 [pom]
+[INFO] 
+[INFO] ----------------------< org.jenkins-ci.main:pom >-----------------------
+[INFO] Building Jenkins main module 1.610-SNAPSHOT                        [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ pom ---
+[INFO] 
+[INFO] ----------------------< org.jenkins-ci.main:cli >-----------------------
+[INFO] Building Jenkins cli 1.610-SNAPSHOT                                [2/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ cli ---
+[INFO] Deleting C:\Users\ska29\Downloads\mp3\mp3\jenkins\cli\target
+[INFO] 
+[INFO] ------------------< org.jenkins-ci.main:jenkins-core >------------------
+[INFO] Building Jenkins core 1.610-SNAPSHOT                               [3/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-core ---
+[INFO] 
+[INFO] ------------------< org.jenkins-ci.main:jenkins-war >-------------------
+[INFO] Building Jenkins war 1.610-SNAPSHOT                                [4/6]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-war ---
+[INFO] 
+[INFO] --------------< org.jenkins-ci.main:jenkins-test-harness >--------------
+[INFO] Building Test harness for Jenkins and plugins 1.610-SNAPSHOT       [5/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ jenkins-test-harness ---
+[INFO] Deleting C:\Users\ska29\Downloads\mp3\mp3\jenkins\test\target
+[INFO] 
+[INFO] -------------------< org.jenkins-ci.plugins:plugin >--------------------
+[INFO] Building Jenkins plugin POM 1.610-SNAPSHOT                         [6/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plugin ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Jenkins main module 1.610-SNAPSHOT:
+[INFO] 
+[INFO] Jenkins main module ................................ SUCCESS [  0.180 s]
+[INFO] Jenkins cli ........................................ SUCCESS [  0.061 s]
+[INFO] Jenkins core ....................................... SUCCESS [  0.084 s]
+[INFO] Jenkins war ........................................ SUCCESS [  0.004 s]
+[INFO] Test harness for Jenkins and plugins ............... SUCCESS [  0.305 s]
+[INFO] Jenkins plugin POM ................................. SUCCESS [  0.043 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.640 s
+[INFO] Finished at: 2020-04-11T00:59:52-04:00
+[INFO] ------------------------------------------------------------------------
