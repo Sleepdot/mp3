@@ -1,0 +1,34 @@
+q1
+-Duplicated Code
+
+-The given line is duplicated on the public List<Plugin> getUpdates().
+-the duplicated code is now exchange to the 'tryAddPlugInToMap' on Line 609
+
+
+
+q2
+-The given code is exchanged to the 'updateAndTrim' on line 119, 139, 171, 255
+
+
+q3
+-Feature Envy
+
+-Remove the 'updateAndTrim' from the Nodes.java and move the 'updateAndTrim' to the Jenkins.java. 
+-Remove the 'jenkins.' from the front of updateComputerList() and trimLabels() (Don't need to call these two from the Jenkins.java anymore). 
+-Add 'jenkins.' to the front of the four updateAndTrim calls in the Nodes.java.  
+
+-The updateAndTrim is move to the 'jenkins.model.Jenkins' class on line 3939
+
+
+q4
+-Duplicated Code
+
+-Instead of the four repeated code, commute them to the for loop to repeated code as much as it repeated (repeated 4 this time). 
+
+
+q5
+-create public KeyPair generateKeyPairWithSpec(DHParameterSpec parameter) on line 179
+-change the duplicated code as keyPair = generateKeyPairWithSpec() form.
+-add 'throws NoSuchAlgorithmException, InvalidAlgorithmParameterException' to generateKeyPairWithSpec
+-line47 import java.security.InvalidAlgorithmParameterException;
+-line52 import java.security.NoSuchAlgorithmException;
