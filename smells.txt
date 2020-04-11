@@ -1,9 +1,12 @@
+Sungmin Kang
+CS498-MP3
+
+
 q1
 -Duplicated Code
 
 -The given line is duplicated on the public List<Plugin> getUpdates().
 -the duplicated code is now exchange to the 'tryAddPlugInToMap' on Line 609
-
 
 
 q2
